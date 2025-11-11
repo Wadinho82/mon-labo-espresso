@@ -1,0 +1,5 @@
+{
+  "name": "MON LABO ESPRESSO",
+  "description": "An application to log and track espresso extraction parameters, helping users optimize their shots and maintain a digital brewing notebook.",
+  "requestFramePermissions": []
+}

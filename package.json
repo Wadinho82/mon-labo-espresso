@@ -1,0 +1,30 @@
+{
+  "name": "mon-labo-espresso",
+  "version": "1.0.0",
+  "description": "An application to log and track espresso extraction parameters, helping users optimize their shots and maintain a digital brewing notebook.",
+  "homepage": "https://wadinho82.github.io/mon-labo-espresso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npx tsc && node -e \"require('fs-extra').copySync('index.html', 'dist/index.html', { overwrite: true, errorOnExist: false });\"",
+    "deploy": "gh-pages -d dist",
+    "start": "npx serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "fs-extra": "^11.2.0",
+    "gh-pages": "^6.1.1",
+    "serve": "^14.2.3",
+    "typescript": "^5.5.3"
+  }
+}
