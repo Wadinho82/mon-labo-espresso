@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.js'; // Ajout de l'extension .js pour une résolution correcte des modules ES
+import App from './App.tsx';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
